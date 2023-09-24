@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="submit.css">
 </head>
-<body>
+<body> 
     <div class="main">
     <div class="regis">
         <h2>SUBMIT HERE</h2>
@@ -28,7 +28,7 @@
 
     
         
-        <input type="radio" name="gender" id="male">
+        <!-- <input type="radio" name="gender" id="male">
         &nbsp;
         <span id="male">MALE</span>
         &nbsp;&nbsp;&nbsp;&nbsp;
@@ -36,12 +36,11 @@
         <input type="radio" name="gender" id="female">
         &nbsp;
         <span id="female">FEMALE</span>
-        <br><br>
-
+        <br><br> -->
 
         <label id="type" > DONATION: </label>
        
-        <select name="type" id="type">
+        <select name="type" id="option">
             <option >TOY</option>
             <option >CLOTH</option>
             <option >BOOKS</option>
@@ -49,6 +48,17 @@
         </select>
         <br><br>
         
+        <div class="hidden" id="eventDiv">
+            <label for="eventType">EVENT:</label>
+            <select id="eventType">
+                <option>Marriage</option>
+                <option>Function_1</option>
+                <option>Function_2</option>
+                <option>Function_3</option>
+            </select>
+            <br><br>
+        </div>
+
         <label >MOBILE : </label>
         <input type="text" placeholder="ENTER MOBILE NUMBER" name="mobile" id="name">
         <br><br>
@@ -63,5 +73,6 @@
 
     </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>

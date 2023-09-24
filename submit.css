@@ -10,7 +10,7 @@ body{
 
 div.main{
     width: 400px;
-    margin: 100px auto 0px auto;
+    margin: 50px auto 50px auto;
 }
 
 h2{
@@ -31,12 +31,12 @@ div.regis{
 }
 
 form#regis{
-    margin: 40px;
+    margin: 0 40px;
 }
 
 label{
     font-size: 18px;
-    font-style: italic;
+    font-style: normal;
 }
 input#name{
     width: 300px;
@@ -64,5 +64,8 @@ input#submit{
     margin-bottom: 15px;
 }
 label,span,h2{
-    text-shadow: 1px 1px 5px rgba(0,0,0.0.3);
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.hidden{
+    display:none;
 }

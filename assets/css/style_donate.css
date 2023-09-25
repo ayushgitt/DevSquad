@@ -64,3 +64,8 @@ input[type=submit]:hover {
 .hidden {
     display:none;
 }
+@media (max-width: 485px) {
+    .main {
+        width: 320px;
+    }
+}

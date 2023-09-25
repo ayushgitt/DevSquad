@@ -26,6 +26,7 @@ header{
     background-color: inherit;
     position: relative;
     top: 26.8px;
+    z-index: 100;
 }
 .container-fluid {
     background-color: inherit;
@@ -153,4 +154,8 @@ footer > .container, .container > .row , .row > div {
         margin-left: 40%;
         width: 30px;
     }   
+    .nav-link {
+        position: relative;
+        z-index: 200;
+    }
 }

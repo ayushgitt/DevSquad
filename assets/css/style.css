@@ -1,0 +1,110 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: azure;
+}
+.container{
+    position: relative;
+    max-width: 470px;
+ width: 100%;
+ border-radius: 12px;
+ padding: 20px 30px 120px;
+ background-color: rgb(71, 71, 231);
+overflow: hidden;
+}
+.Signup header{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+gap: 20px;
+margin-top: 20px;
+}
+form input{
+    height: 60px;
+    border: none;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    border-radius: 8px;
+
+}
+ .check input[type="checkbox"]{
+height: 16px;
+width: 16px;
+accent-color: white;
+cursor: pointer;
+}
+form .check label{
+    cursor: pointer;
+    color: white;
+
+}
+form input[type="submit"]{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+margin-top: 20px;
+}
+
+form input[type="submit"]:hover{
+    color: blue;
+    background-color: aquamarine;
+}
+form a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+form a:hover{
+    text-decoration: underline;
+
+}
+.Login{
+    background-color:white;
+    left: 50%;
+
+    position: absolute;
+    width: calc(100% + 200px);
+    height: 100%;
+    padding: 20px 140px;
+transform: translateX(-50%);
+border-radius: 50%;
+/* margin-top: 50px; */
+bottom: -89%;
+transition: all 0.6s ease;
+}
+.Login input{
+    border: 1px solid rgb(76, 38, 133);
+
+}
+.Login input[type="submit"]{
+background-color: #4070f4;
+color: white;
+
+}
+.Login header{
+    color: black;
+}
+.Login:hover{
+    bottom: -10%;
+    border-radius: 35%;
+    
+}
+
+
+  
